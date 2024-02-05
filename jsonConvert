@@ -1,0 +1,65 @@
+{
+    "status": "success",
+    "message": "User profile fetched  successfully!",
+    "user": {
+        "shippingAddress": {
+            "address": "Buxar Junction",
+            "city": "Buxar",
+            "postalCode": "800001",
+            "province": "Bihar",
+            "phone": "1029384756"
+        },
+        "_id": "65ba489da2a3da83cf840f7f",
+        "fullname": "Admin11",
+        "email": "admin11@gmail.com",
+        "password": "$2a$10$CRBARjLP27/Llq1ww5Yas.1mD3lN2hHUlCbBWqlDWkr7aHrc0ERnW",
+        "orders": [
+            {
+                "_id": "65bd1683c1266411e220bcec",
+                "user": "65ba489da2a3da83cf840f7f",
+                "orderItems": [
+                    {
+                        "_id": "65ba4958a2a3da83cf840f96",
+                        "name": "Ganja",
+                        "totalQtyBuying": 1,
+                        "price": 100,
+                        "description": "This is best ganja"
+                    },
+                    {
+                        "_id": "65ba496ea2a3da83cf840f9d",
+                        "name": "Bra",
+                        "totalQtyBuying": 1,
+                        "price": 100,
+                        "description": "This is best bra"
+                    },
+                    {
+                        "_id": "65bb6cf7073a3c0b425de5d9",
+                        "name": "LSD",
+                        "totalQtyBuying": 1,
+                        "price": 100,
+                        "description": "This is best ganja"
+                    }
+                ],
+                "shippingAddress": {
+                    "firstname": "Admin",
+                    "postalAddress": "800001"
+                },
+                "orderNumber": "OWMVG74381",
+                "paymentStatus": "paid",
+                "paymentMethod": "card",
+                "totalPrice": 300,
+                "currency": "usd",
+                "status": "pending",
+                "createdAt": "2024-02-02T16:21:23.852Z",
+                "updatedAt": "2024-02-02T16:21:53.543Z",
+                "__v": 0
+            }
+        ],
+        "wishlists": [],
+        "isAdmin": false,
+        "hasShippingAddress": true,
+        "createdAt": "2024-01-31T13:18:21.402Z",
+        "updatedAt": "2024-02-02T16:21:24.205Z",
+        "__v": 18
+    }
+}
